@@ -1,0 +1,36 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>message board</title>
+        <link rel="stylesheet" href="/projects/messageboard/messageboard.css">
+        <script src="/projects/messageboard/messageboard.js"></script>
+        <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <h1>MESSAGE BOARD</h1>
+        <p>Whats on your mind?</p>
+        <div id="message-board">
+
+        </div class="user-input">
+        <form action="" method="post" onsubmit="post_message();">
+
+            <input type="text" name="name" id="name" placeholder="Enter name"
+                oninput="empty_check()">
+            <br>
+            <textarea name="message" id="message" placeholder="Enter message"
+                oninput="empty_check()"></textarea>
+            <br>
+            <button type="submit" id="submit" value="POST">POST</button>
+            <p id="empty-check">name and/or message field empty*</p>
+        </form>
+
+        <div>
+
+        </div>
+    </body>
+</html>

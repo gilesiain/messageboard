@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+body {
+    text-align: center;
+    font-family: montserrat, sans-serif;
+    color: #222222;
+}
+
+#message-board {
+    margin: auto;
+    margin-top: 1em;
+    padding: .5em 0 0 1em;
+    height: 25vh;
+    width: 300px;
+    background-color: rgb(241, 241, 241);
+    overflow: hidden;
+    border-radius: 1em;
+    overflow: auto;
+    text-align: left;
+}
+
+#message-board p {
+    background-color: rgb(77, 255, 119);
+    padding: 1em;
+    width: 200px;
+    border-radius: 1em;
+}
+
+form {
+    margin: 0 auto 0 auto;
+    width: 300px;
+    text-align: center;
+}
+
+#name {
+    outline-style: none;
+    display: block;
+    text-align: center;
+    margin: .5rem 0 0 0;
+    padding: .5rem 0 .5rem 0;
+    width: 300px;
+    border: 0;
+    background-color: rgb(220, 220, 220);
+    color: black;
+    font-size: 18px;
+    border-radius: 1em;
+}
+
+#name:focus {
+    border-bottom: 3px solid rgb(0, 166, 231);
+}
+
+#message {
+    resize: none;
+    outline-style: none;
+    display: block;
+    text-align: center;
+    margin: -.25rem 0 0 0;
+    padding: .5rem;
+    width: 280px;
+    height: 5rem;
+    border: 0;
+    background-color: rgb(220, 220, 220);
+    color: black;
+    font-size: 18px;
+    border-radius: 1em;
+    font-family: montserrat, sans-serif;
+}
+
+#message:focus {
+    border-bottom: 3px solid rgb(0, 166, 231);
+}
+
+#submit {
+    margin: -.5em 0 0 0;
+    padding: .5em;
+    width: 300px;
+    height: 3em;
+    text-align: center;
+    border: 0;
+    background-color: rgb(0, 166, 231);
+    border-radius: 3em;
+    color: #fff;
+    font-weight: bold;
+    font-family: montserrat, sans-serif;
+    cursor: pointer;
+    display: none;
+}
+
+#submit:hover {
+    background-color: #222;
+}
+
+form p {
+    margin-top: -.5em;
+    color: #999;
+}
